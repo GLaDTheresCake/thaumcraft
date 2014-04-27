@@ -424,15 +424,15 @@ recipe.type.construct=Mystieke Constructie
 #
 # Other
 itemGroup.thaumcraft=Thaumcraft
-nodetype.NORMAL.name=Normaal
-nodetype.UNSTABLE.name=Instabiel
-nodetype.DARK.name=Donker
-nodetype.PURE.name=Puur
-nodetype.TAINTED.name=Besmet
-nodetype.HUNGRY.name=Hongerig
-nodemod.BRIGHT.name=Helder
-nodemod.PALE.name=Bleek
-nodemod.FADING.name=Vervagend
+nodetype.NORMAL.name=Normale
+nodetype.UNSTABLE.name=Instabiele
+nodetype.DARK.name=Donkere
+nodetype.PURE.name=Pure
+nodetype.TAINTED.name=Besmette
+nodetype.HUNGRY.name=Hongerige
+nodemod.BRIGHT.name=Heldere
+nodemod.PALE.name=Bleke
+nodemod.FADING.name=Vervagende
 tc.taint_item_poison=Een oplossende %s heeft je besmet
 death.attack.taint=%1$s was gecorrumpeerd door Smet
 death.attack.taint.player=%1$s was gecorrumpeerd door Smet terwijl hij vocht met %2$s
@@ -574,12 +574,12 @@ tc.research_category.GOLEMANCY=Golemwerken
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
 # Research entries
-tc.research_name.RESEARCH=Research
-tc.research_text.RESEARCH=How you discover things
-tc.research_page.RESEARCH.1=Before you can build most thaumaturgical items and blocks, you first need to discover how to do so. There are several steps in this process:<BR>(1) Exploring the world and examining blocks, items and creatures with a §5Thaumometer§0<BR><BR>(2) Taking the research points you gathered from the first step and expanding your aspect knowledge with the §5Research Table§0<BR><BR>(3) Using the aspects you know and discovering practical knowledge and recipes with the §5Research Table§0.<LINE>
-tc.research_page.RESEARCH.2=§l      §n(1) Exploration§r<BR><BR>You cannot perform research without research points, and the best way to gain research points is by exploration and examining objects in the world.<BR>The first thing you will need to do is construct a §5Thaumometer§0 (see next page). By pointing the §5Thaumometer§0 at objects or creatures and holding the right mouse button you will start examining them. The process does not take long, but your movement speed is reduced while it is occurring.<BR>Once complete the §5Thaumometer§0 will display what aspects the object contains. In the bottom right of the screen you will also see a summary of the aspects and research points 
-tc.research_page.RESEARCH.3=you discovered.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>You will initially not be able to examine all objects since you have not discovered their component aspects. For example, a object containing the Lux aspect can only be examined if you have previously discovered the Lux aspect, or know
-tc.research_page.RESEARCH.4=the two aspects that combine to create it.<BR>The very first time you discover an aspect by examining something you gain two more research points than you would have normally.<BR>Objects and creatures can usually only ever be examined once.<BR>Occasionally examining something will reveal additional clues and insights into thaumoturgical research, unlocking subjects that you can research further.<BR>Research discovered in this fashion will have amber icons.
+tc.research_name.RESEARCH=Onderzoek
+tc.research_text.RESEARCH=Hoe je dingen ontdekt
+tc.research_page.RESEARCH.1=Voordat je de meeste thaumaturgische blokken en objecten kan maken, moet je eerst ontdekken hoe je dat doet. Er zijn meerdere stappen in dit proces:<BR>(1) De wereld ontdekken en blokken, objecten een beesten onderzoeken met een §5Thaumometer§0<BR><BR>(2) De onderzoeks punten die je bij de eerste stap vergaard hebt gebruiken om meer kennis op te doen in de §5Omderzoeks tafel§0<BR><BR>(3) De aspecten gebruiken die je kent, en practische kennis en de recepten van objecten vergaren in de §5Onderzoeks tafel0.<LINE>
+tc.research_page.RESEARCH.2=§l      §n(1) Ontdekkingen§r<BR><BR>Je kan geen onderzoek doen zonder onderzoekspunten, en de beste manier om deze te vergaren is door ontdekking en het scanner van objecten in de wereld.<BR>Het eerste object dat je zal moeten maken is een §5Thaumometer§0 (zie volgende pagina). Door de §5Thaumometer§0 te wijzen naar objecten of beesten, terwijl je de rechter muisknop indrukt, zal je het scannen. Het proces van scannen duurt niet lang, maar je beweegsnelheid is verminderd terwijl het proces bezig is.<BR>De §5Thaumometer§0 zal nadat het klaar is met scannen aangeven welke aspecten het object bevat. Rechts onderin het scherm zal je een samenvatting zien van de onderzoekspunten en eventuele aanwijzingen die je hebt ontdekt. 
+tc.research_page.RESEARCH.3=.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>You will initially not be able to examine all objects since you have not discovered their component aspects. For example, a object containing the Lux aspect can only be examined if you have previously discovered the Lux aspect, or know
+tc.research_page.RESEARCH.4=Ook zal je bij nieuwe aspecten rechts onderin zien uit welke andere aspecten dit is opgebouwd.<BR>De aller eerste keer dat je een aspect ontdekt door iets te onderzoeken zal je twee meer onderzoekspunten krijgen dan normaal.<BR>Objecten en dieren kunnen normaal gesproken maar één keer onderzocht worden.<BR>Soms zal iets onderzoeken extra aanwijzingen geven naar , unlocking subjects that you can research further.<BR>Research discovered in this fashion will have amber icons.
 tc.research_page.RESEARCH.5=§l   §n(2) Combining Aspects§r<BR><BR>Once you have gathered some research points you can attempt to combine them into compound aspects within a research table.<BR>To craft a research table simply place two §5tables§0 next to each other and click on them with a set of Scribing Tools. The recipe for tables is listed under the §5Artiface§0 research category.<BR>If you open the research tables inventory, you will see an interface as pictured on the right.<BR>The scribing tools you used to craft the table will be located in slot §l1§r. 
 tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>You should see all the primal aspects (and possibly some compound aspects) listed in the area marked §l3§r with varying amounts attached to them. When you enter a world for the first time, every player is assigned a small pool of primal aspects to get them started.<BR>If you had done some exploring with
 tc.research_page.RESEARCH.7=the thaumometer beforehand then you might have a significant number of primal and compound aspects listed here.<BR>You can now start combining aspects into more complex compound aspects but simply clicking on those you wish to combine or dragging it to the runed circles in area §l4§r. The selected aspects will appear in area §l4§r and when you have two selected pressing the purple button will attempt to combine them. If successful you should see what was gained in the bottom right and it should appear in area §l3§r.<BR>The component aspects are consumed even if the combination did not result in valid compound aspect.
@@ -595,7 +595,7 @@ tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of a
 #
 tc.research_name.ASPECTS=Aspects of Magic
 tc.research_text.ASPECTS=The building blocks of magic
-tc.research_page.ASPECTS.1=Every item, object or creature is bound by varying mystical elements known as §5aspects§0. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Saxum while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 50 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
+tc.research_page.ASPECTS.1=Every item, object or creature is bound by varying mystical elements known as §5aspects§0. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 50 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
 tc.research_page.ASPECTS.2=§lPrimal Aspects§r are the most basic types of aspects and there are only 6 of them: §6Aer§0 (air), §2Terra§0 (earth), §cIgnis§0 (fire), §3Aqua§0 (Water), §7Ordo§0 (order), §8Perditio§0 (entropy).<BR>These form the basic building blocks of all other aspects.<BR>§lCompound Aspects§r are built from two other aspects. The simplest compound aspects are made from two primal aspects, but it is possible to have incredibly complex compound aspects made from successive layers of simpler aspects.<BR>The simplest example of such a compound aspect, is the aspect of Victus (life), which is a combination of §2Terra§0 and §3Aqua§0. 
 tc.research_page.ASPECTS.3=To view what aspects an item possesses, simply hover your cursor over the item and press sneak (shift), and you will see what aspects that item has and what amounts of each. You will first need to study the item however, until then the aspects will remain unknown.<LINE>Aspects that have somehow been separated from their object and purified is known as §5Vis§0 and is very valuable: both as a crafting ingredient and as a subject for magical research.<BR>Vis is most often bound into wands, but it is also possible to store it as a magical liquid. Vis stored as a liquid is known as §5Essentia§0.
 #
@@ -635,8 +635,8 @@ tc.research_page.RESEARCHDUPE.1=You have discovered a way to copy completed rese
 #
 tc.research_name.DECONSTRUCTOR=Deconstruction table
 tc.research_text.DECONSTRUCTOR=When taking a good look just isn't enough
-tc.research_page.DECONSTRUCTOR.1=There comes a point in any thaumaturge's career where he is unable to progress with research due to his lack of knowledge. <BR>One possible recourse is the Deconstruction Table. The table allows you to break down objects into their simplest parts which you can examine. There are limits however - the table breaks compound aspects into their component aspects until only primal aspects remain. During this process much knowledge is lost and at best the thaumaturge can hope for is a single piece of primal knowledge.<BR>For example cobblestone (Saxum and 
-tc.research_page.DECONSTRUCTOR.2=§8Perditio§0) will be simplified into 2 §2Terra§0 and 1 §8Terra§0, only one of which will have a chance of being discovered.<BR>It is also fairly slow and the fewer aspects and object has, the lower the chance to discover something.
+tc.research_page.DECONSTRUCTOR.1=There comes a point in any thaumaturge's career where he is unable to progress with research due to his lack of knowledge. <BR>One possible recourse is the Deconstruction Table. The table allows you to break down objects into their simplest parts which you can examine. There are limits however - the table breaks compound aspects into their component aspects until only primal aspects remain. During this process much knowledge is lost and at best the thaumaturge can hope for is a single piece of primal knowledge.<BR>For example iron (Metallum) 
+tc.research_page.DECONSTRUCTOR.2=will be simplified into §2Terra§0 and §8Ordo§0, only one of which will have a chance of being discovered.<BR>It is also fairly slow and the fewer aspects and object has, the lower the chance to discover something.
 #
 tc.research_name.BASICTHAUMATURGY=Basic Wandcraft
 tc.research_text.BASICTHAUMATURGY=Your first tool
@@ -990,7 +990,9 @@ tc.research_page.COREEMPTY.1=Golems fitted with this core will remove items from
 #
 tc.research_name.COREUSE=Golem Core: Use
 tc.research_text.COREUSE=Clickety click
-tc.research_page.COREUSE.1=Like the Empty core, golems fitted with this core will remove items from an attached inventory, but instead of placing it in an inventory or dropping it in world, they will attempt to use it on a target block or location.<BR>They will attempt to use the item as if they are a player right-clicking on the target block or location with the item.<BR>If you wish, you can specify what items should be removed from the inventory by accessing the golems interface. All other items will be ignored.
+tc.research_page.COREUSE.1=Like the Empty core, golems fitted with this core will remove items from an attached inventory, but instead of placing it in an inventory or dropping it in world, they will attempt to use it on a target block or location.<BR>They will attempt to use the item as if they are a player right-clicking or left-clicking on the target block or location with the item - you can specify which.<BR>If you wish, you can specify what items should be removed from the inventory by accessing the golems interface. All other items will be ignored.
+tc.research_page.COREUSE.2=If the golem is not attached to an inventory, it will attempt to perform its actions with an empty hand instead - simply clicking on the target as instructed.<LINE>You are able to tell the golem how to 'click' on something - apart from just telling it to left or right click you can also instruct it to be sneaking while doing so.<BR>You can also instruct it to only click on empty air instead of a block.
+tc.research_page.COREUSE.3=      §nAir Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>This upgrade will increase the speed at which the golem is able to click the target block or space.
 #
 tc.research_name.COREFILL=Golem Core: Fill
 tc.research_text.COREFILL=Keeping an inventory supplied
@@ -1126,12 +1128,16 @@ tc.research_page.INFUSION.5=altar in symmetrical formations (things like candles
 #
 tc.research_name.JARBRAIN=Brain in a Jar
 tc.research_text.JARBRAIN=Sealing in the foulness
-tc.research_page.JARBRAIN.1=- Throw one rotten zombie brain into a jar.<BR>- Add some spider eyes and water.<BR>- Stir gently with your wand while thinking dark thoughts.<BR>If you follow the recipe exactly you should now have a partially animated and fully malicious zombie brain.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving its jar a good shake will make it surrender some of its ill-gotten gains for your own use.
+tc.research_page.JARBRAIN.1=- Throw one rotten zombie brain into a jar.<BR>- Add some spider eyes and water.<BR>- Stir gently with your wand while thinking dark thoughts.<BR>If you follow the recipe exactly you should now have a partially animated and fully malicious zombie brain.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving its jar a good shake will make it surrender some of its ill-gotten gains for your own use.<BR>Particle effects will be displayed above the jar when it is full.
 #
 tc.research_name.HOVERHARNESS=Thaumostatic Harness
-tc.research_text.HOVERHARNESS=Is it a bird...
+tc.research_text.HOVERHARNESS=Is it a bird?
 tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>Unusually the only vis required to power this harness is added during its creation process. Instead the fuel it requires for flight is raw Potentia. Simply right click while holding the harness to insert filled jars.<BR>Pressing 'F' while wearing the harness activates or deactivates it.
 tc.research_page.HOVERHARNESS.2=While active the harness will constantly use Potentia.<BR>It can be enchanted with the Haste enchant to increase the speed at which you move while flying.
+#
+tc.research_name.HOVERGIRDLE=Thaumostatic Girdle
+tc.research_text.HOVERGIRDLE=Is it a plane?
+tc.research_page.HOVERGIRDLE.1=This girdle is designed to be used with the Thaumostatic Harness. On its own it has very little lifting power - it has just enough to prevent most fall damage.<BR>When worn with the harness however it greatly increases the speed at which you are able to fly. The only drawback is that the harness will consume slightly more fuel than normal.
 #
 tc.research_name.ADVANCEDGOLEM=Advanced Golems
 tc.research_text.ADVANCEDGOLEM=Maybe I should think this through...
@@ -1285,15 +1291,15 @@ tc.research_page.RUNICCHARGED.1=This is a specialized version of the Ring of Shi
 #
 tc.research_name.RUNICHEALING=Revitalizing Ring of Shielding
 tc.research_text.RUNICHEALING=Go ahead, I can take it.
-tc.research_page.RUNICHEALING.1=This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but when your runic shielding is breached it will release a pulse of regenerative energy that will last for a few seconds.<BR>This effect cannot trigger more than once every 30 seconds.
+tc.research_page.RUNICHEALING.1=This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but when your runic shielding is breached it will release a pulse of regenerative energy that will last for a few seconds.<BR>This effect cannot trigger more than once every 20 seconds.
 #
 tc.research_name.RUNICKINETIC=Kinetic Girdle of Shielding
 tc.research_text.RUNICKINETIC=Hehe, you're going to regret that.
-tc.research_page.RUNICKINETIC.1=This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the girdle it is based on, but when your shielding is breached a detonation of kinetic energy will be released damaging and shoving back anything nearby.<BR>This effect cannot trigger more than once every 30 seconds.
+tc.research_page.RUNICKINETIC.1=This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the girdle it is based on, but when your shielding is breached a detonation of kinetic energy will be released damaging and shoving back anything nearby.<BR>This effect cannot trigger more than once every 20 seconds.
 #
 tc.research_name.RUNICEMERGENCY=Amulet of Emergency Shielding
 tc.research_text.RUNICEMERGENCY=You can't get me that easily.
-tc.research_page.RUNICEMERGENCY.1=This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once every 2 minutes.
+tc.research_page.RUNICEMERGENCY.1=This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once a minute.
 #
 tc.research_name.WARDEDARCANA=Warded Arcana
 tc.research_text.WARDEDARCANA=Controlling access
